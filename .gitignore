@@ -1,0 +1,19 @@
+# Ignore Windows executables
+*.exe
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore build folders
+bin/
+build/
+
+# Ignore cph folders
+.cph/
+
+# Ignore class files
+*.class
+
+# Ignore vscode folders
+.vscode/
