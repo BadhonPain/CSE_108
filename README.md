@@ -92,8 +92,8 @@ Implementation of a `Figure` class that manages dynamically allocated 2D integer
 
 | File | Description |
 |------|-------------|
-| `Ass1_2405087_Dec25.cpp.cpp` | Complete solution with `Figure` class |
-| `Question.docx` | Problem specification |
+| [`Ass1_2405087_Dec25.cpp.cpp`](./Offline/Offline_1/Ass1_2405087_Dec25.cpp.cpp) | Complete solution with `Figure` class |
+| [`Question.docx`](./Offline/Offline_1/Question.docx) | Problem specification |
 
 </details>
 
@@ -109,8 +109,8 @@ A system to manage political parties and their members. Features include adding/
 
 | File | Description |
 |------|-------------|
-| `2405087.cpp` | Solution — `PartyMember` & `Party` classes |
-| `CSE108_Offline 2_Specifications.pdf` | Problem specification |
+| [`2405087.cpp`](./Offline/Offline_2/2405087.cpp) | Solution — `PartyMember` & `Party` classes |
+| [`CSE108_Offline 2_Specifications.pdf`](./Offline/Offline_2/CSE108_Offline%202_Specifications.pdf) | Problem specification |
 
 </details>
 
@@ -126,12 +126,12 @@ A vehicle service workshop simulation featuring an abstract `Vehicle` class exte
 
 | File | Description |
 |------|-------------|
-| `Vehicle.java` | Abstract base class with service cost logic |
-| `Car.java` / `Bike.java` / `Truck.java` | Concrete vehicle implementations |
-| `Serviceable.java` | Service interface |
-| `ServiceException.java` | Custom checked exception |
-| `WorkshopManager.java` | Manager class with polymorphic operations |
-| `Main.java` | Driver program |
+| [`Vehicle.java`](./Offline/Offline_3/Vehicle.java) | Abstract base class with service cost logic |
+| [`Car.java`](./Offline/Offline_3/Car.java) / [`Bike.java`](./Offline/Offline_3/Bike.java) / [`Truck.java`](./Offline/Offline_3/Truck.java) | Concrete vehicle implementations |
+| [`Serviceable.java`](./Offline/Offline_3/Serviceable.java) | Service interface |
+| [`ServiceException.java`](./Offline/Offline_3/ServiceException.java) | Custom checked exception |
+| [`WorkshopManager.java`](./Offline/Offline_3/WorkshopManager.java) | Manager class with polymorphic operations |
+| [`Main.java`](./Offline/Offline_3/Main.java) | Driver program |
 
 </details>
 
@@ -139,64 +139,128 @@ A vehicle service workshop simulation featuring an abstract `Vehicle` class exte
 
 ## 💻 Online Assessments
 
-### Online 01 — FileHandler Class *(C++)*
+### [Online 01 — FileHandler Class](./Online/Online_01) *(C++)*
 > **Concepts:** File I/O (`ofstream`), Resource Management, Encapsulation
 
 Implements a `FileHandler` class that wraps file operations, ensuring files are opened and closed only once during the object's lifetime.
 
+<details>
+<summary>📄 View Files</summary>
+
+| File | Description |
+|------|-------------|
+| [`main.cpp`](./Online/Online_01/main.cpp) | Complete solution with `FileHandler` class |
+| [`Question.pdf`](./Online/Online_01/Question.pdf) | Problem specification |
+
+</details>
+
 ---
 
-### Online 02 — Playlist Management *(C++)*
+### [Online 02 — Playlist Management](./Online/Online_02) *(C++)*
 > **Concepts:** Composition, Dynamic Arrays, Class Relationships
 
 A music playlist system with `Song` and `Album` classes supporting song management, display, and album operations.
 
+<details>
+<summary>📄 View Files</summary>
+
+| File | Description |
+|------|-------------|
+| [`main.cpp`](./Online/Online_02/main.cpp) | Complete solution with `Song` & `Album` classes |
+| [`July 2025 CSE 108 _ Online 2 - B1+B2.pdf`](./Online/Online_02/July%202025%20CSE%20108%20_%20Online%202%20-%20B1+B2.pdf) | Problem specification |
+
+</details>
+
 ---
 
-### Online 03 — ShiftArray *(C++)*
+### [Online 03 — ShiftArray](./Online/Online_03) *(C++)*
 > **Concepts:** Operator Overloading (`+`, `-`, `++`, `--`, `<<`), Deep Copy, Destructor
 
 Custom array class with circular shift operations via overloaded operators. Demonstrates proper memory management and deep-copy semantics.
 
+<details>
+<summary>📄 View Files</summary>
+
+| File | Description |
+|------|-------------|
+| [`main.cpp`](./Online/Online_03/main.cpp) | Complete solution with overloaded shift operations |
+| [`Online 3 - B1_B2.pdf`](./Online/Online_03/Online%203%20-%20B1_B2.pdf) | Problem specification |
+
+</details>
+
 ---
 
-### Online 04 — Gym Membership Fee Calculator *(Java)*
+### [Online 04 — Gym Membership Fee Calculator](./Online/Online_04) *(Java)*
 > **Concepts:** Classes, Arrays, Encapsulation, Object Composition
 
 Calculates late fees for gym members across multiple plans using `GymMember` and `Plan` classes with fee computation logic.
 
+<details>
+<summary>📄 View Files</summary>
+
+| File | Description |
+|------|-------------|
+| [`Main.java`](./Online/Online_04/Main.java) | Driver program and entry point |
+| [`GymMember.java`](./Online/Online_04/GymMember.java) / [`Plan.java`](./Online/Online_04/Plan.java) | Member and Plan business logic |
+| [`Online4_B.pdf`](./Online/Online_04/Online4_B.pdf) | Problem specification |
+
+</details>
+
 ---
 
-### Online 05 — Delivery Service System *(Java)*
+### [Online 05 — Delivery Service System](./Online/Online_05) *(Java)*
 > **Concepts:** Abstract Classes, Inheritance, Custom Exceptions, Input Validation
 
 A delivery service with an abstract `DeliveryRequest` base class, extended by `FoodDelivery` and `ParcelDelivery`. Uses `InvalidRequestException` for robust input validation.
 
+<details>
+<summary>📄 View Files</summary>
+
+| File | Description |
+|------|-------------|
+| [`Main.java`](./Online/Online_05/Main.java) | Driver program and execution simulation |
+| [`DeliveryRequest.java`](./Online/Online_05/DeliveryRequest.java) | Abstract base delivery request class |
+| [`FoodDelivery.java`](./Online/Online_05/FoodDelivery.java) / [`ParcelDelivery.java`](./Online/Online_05/ParcelDelivery.java) | Concrete request types |
+| [`InvalidRequestException.java`](./Online/Online_05/InvalidRequestException.java) | Custom exception for input validation |
+| [`CSE108_Online-5_Set_B_Question.pdf`](./Online/Online_05/CSE108_Online-5_Set_B_Question.pdf) | Problem specification |
+
+</details>
+
 ---
 
-### Online 06 — Multi-threaded Prime Sum *(Java)*
+### [Online 06 — Multi-threaded Prime Sum](./Online/Online_06) *(Java)*
 > **Concepts:** Multithreading, `Thread` class, `join()`, Range Partitioning
 
 Computes the sum of all prime numbers in a given range using multiple threads. Divides the work into chunks and aggregates partial sums via `Thread.join()`.
+
+<details>
+<summary>📄 View Files</summary>
+
+| File | Description |
+|------|-------------|
+| [`Main.java`](./Online/Online_06/Main.java) | Multi-threaded solution and logic |
+| [`Sec B.pdf`](./Online/Online_06/Sec%20B.pdf) | Problem specification |
+
+</details>
 
 ---
 
 ## 🧪 Practice Problems
 
 ### C++ Practice
-| Problem | Topics |
-|---------|--------|
-| `PP_week_04.cpp` | Inheritance, Polymorphism, Virtual Functions |
-| `Inheritence_practice.cpp` | Class Hierarchies, Method Overriding |
-| `function_overridding.cpp.cpp` | Virtual Functions, Runtime Polymorphism |
-| `operator_overloading_practice.cpp` | Operator Overloading |
+| Problem | Topics | Resources |
+|---------|--------|-----------|
+| [`PP_week_04.cpp`](./Practice/CPP/PP_week_04.cpp) | Inheritance, Polymorphism, Virtual Functions | [📕 Specification](./Practice/CPP/Practice%20Problem%20Week%204.pdf) |
+| [`Inheritence_practice.cpp`](./Practice/CPP/Inheritence_practice.cpp) | Class Hierarchies, Method Overriding | [📁 Source Folder](./Practice/CPP/) |
+| [`function_overridding.cpp.cpp`](./Practice/CPP/function_overridding.cpp.cpp) | Virtual Functions, Runtime Polymorphism | [📁 Source Folder](./Practice/CPP/) |
+| [`operator_overloading_practice.cpp`](./Practice/CPP/operator_overloading_practice.cpp) | Operator Overloading | [📁 Source Folder](./Practice/CPP/) |
 
 ### Java Practice
 
-| Problem | Topics |
-|---------|--------|
-| **Banking System** (`Java Practice 1/`) | Classes, `Account` & `Branch` management |
-| **Movie Collection** (`Java_Practice_Collections_Generics/`) | `ArrayList`, `HashMap`, Generics, File Parsing, Comparable |
+| Problem | Topics | Files |
+|---------|--------|-------|
+| **Banking System** ([`Java Practice 1/`](./Practice/Java/Java%20Practice%201/)) | Classes, `Account` & `Branch` management | [`Account.java`](./Practice/Java/Java%20Practice%201/Account.java) / [`Branch.java`](./Practice/Java/Java%20Practice%201/Branch.java) / [`Main.java`](./Practice/Java/Java%20Practice%201/Main.java) |
+| **Movie Collection** ([`Java_Practice_Collections_Generics/`](./Practice/Java/Java_Practice_Collections_Generics/)) | `ArrayList`, `HashMap`, Generics, File Parsing, Comparable | [`Main.java`](./Practice/Java/Java_Practice_Collections_Generics/Main.java) / [`Movie.java`](./Practice/Java/Java_Practice_Collections_Generics/Movie.java) / [`movies.txt`](./Practice/Java/Java_Practice_Collections_Generics/movies.txt) / [📕 Specs](./Practice/Java/Java_Practice_Collections_Generics/Java_Practice_Collections_Generics.pdf) |
 
 ---
 
