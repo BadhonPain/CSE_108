@@ -82,7 +82,7 @@ CSE_108/
 
 ## 📝 Offline Assignments
 
-### Offline 1 — Figure Matrix *(C++)*
+### [Offline 1 — Figure Matrix](./Offline/Offline_1) *(C++)*
 > **Concepts:** Classes, Encapsulation, Dynamic Memory Allocation, 2D Arrays
 
 Implementation of a `Figure` class that manages dynamically allocated 2D integer matrices. Handles matrix creation, naming based on dimensions, and memory management using constructors and destructors.
@@ -99,7 +99,7 @@ Implementation of a `Figure` class that manages dynamically allocated 2D integer
 
 ---
 
-### Offline 2 — Political Party Management System *(C++)*
+### [Offline 2 — Political Party Management System](./Offline/Offline_2) *(C++)*
 > **Concepts:** Composition, Copy Constructor, Deep Copy, Dynamic Arrays, Friend Functions
 
 A system to manage political parties and their members. Features include adding/removing members, nominating candidates, and displaying party details with proper deep-copy semantics.
@@ -116,7 +116,7 @@ A system to manage political parties and their members. Features include adding/
 
 ---
 
-### Offline 3 — Vehicle Workshop Manager *(Java)*
+### [Offline 3 — Vehicle Workshop Manager](./Offline/Offline_3) *(Java)*
 > **Concepts:** Abstract Classes, Inheritance, Interfaces, Custom Exceptions, Polymorphism
 
 A vehicle service workshop simulation featuring an abstract `Vehicle` class extended by `Car`, `Bike`, and `Truck`. Implements a `Serviceable` interface and uses a custom `ServiceException` for validation. The `WorkshopManager` demonstrates polymorphic service cost calculations.
